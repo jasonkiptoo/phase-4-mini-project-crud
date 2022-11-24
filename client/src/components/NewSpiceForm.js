@@ -6,7 +6,7 @@ const initialState = {
   notes: "",
   description: "",
   rating: "",
-};
+}; 
 
 function NewSpiceForm({ onAddSpice }) {
   const [formData, setFormData] = useState(initialState);

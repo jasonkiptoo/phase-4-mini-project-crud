@@ -5,6 +5,6 @@ function Header({ spiceCount }) {
       <h3>We have {spiceCount} spices in stock!</h3>
     </header>
   );
-}
+} 
 
 export default Header;

@@ -7,7 +7,7 @@ function SpiceItem({ spice, onUpdateSpice, onDeleteSpice }) {
     const newRating = pct * 5;
     fetch(`/spices/${id}`, {
       method: "PATCH",
-      headers: {
+      headers: { 
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ rating: newRating }),
